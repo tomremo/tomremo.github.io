@@ -1,0 +1,46 @@
+<!doctype html>
+<html amp lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, AMPs</title>
+    <link rel="canonical" href="http://tomremo.github.io/index.html" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "author": "Tomas Remotigue",
+        "name": "Test homepage article",
+        "publisher": "remotigue.net",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+          "images/new-gcp-logo.png"
+        ]
+      }
+    </script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <style>body {opacity: 0}</style><noscript><style>body {opacity: 1}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+  </head>
+  <body>
+    <!-- See https://developers.google.com/analytics/devguides/collection/amp-analytics/ -->
+    <amp-analytics type="googleanalytics" id="analytics1">
+      <script type="application/json">
+      {
+        "vars": {
+          "account": "UA-31304-18"  // Replace with your property ID.
+        },
+        "triggers": {
+          "trackPageview": {  // Trigger names can be any string. trackPageview is not a required name.
+            "on": "visible",
+            "request": "pageview"
+          }
+        }
+      }
+      </script>
+    </amp-analytics>
+    <h1>Welcome to the mobile web</h1>
+    <amp-img src="images/new-gcp-logo.png" alt="Welcome" height="44" width="344"></amp-img>
+  </body>
+</html>
