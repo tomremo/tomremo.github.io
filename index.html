@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Hello, AMPs</title>
     <link rel="canonical" href="http://tomremo.github.io/index.html" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <script type="application/ld+json">
       {
@@ -22,6 +23,15 @@
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <style>body {opacity: 0}</style><noscript><style>body {opacity: 1}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <style amp-custom>
+      body {
+        background-color: white;
+      }
+      amp-img {
+        background-color: gray;
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
     <!-- See https://developers.google.com/analytics/devguides/collection/amp-analytics/ -->
@@ -41,9 +51,9 @@
       </script>
     </amp-analytics>
     <h1>This is an AMP demo page</h1>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nisl eros, faucibus nec elit vel, fermentum maximus felis. Aenean porttitor ligula et suscipit sodales. Phasellus quis nisi eget nulla fermentum elementum. Aenean tortor diam, ultricies eget tincidunt faucibus, vehicula sed erat. Mauris et rutrum orci. Praesent purus nisi, mattis vitae tincidunt et, auctor non mauris. Integer finibus sed velit vitae pretium. Proin id ex vehicula elit condimentum pulvinar. Sed interdum tristique urna, in dictum lacus ultricies vel.
-
-Vestibulum fermentum dolor in quam pellentesque convallis. Phasellus euismod, libero ut aliquet pharetra, dui elit tincidunt eros, vel convallis dui eros nec nulla. Cras dictum felis mi, vel consequat enim suscipit id. Duis nec pellentesque magna, ut dignissim dolor. Vivamus sit amet lorem nec dui tincidunt vestibulum. Suspendisse sollicitudin purus sed vestibulum auctor. Nulla tempor, enim non congue scelerisque, odio nisl fringilla nisl, quis placerat nunc lacus et purus. Suspendisse posuere laoreet tincidunt.
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nisl eros, faucibus nec elit vel, fermentum maximus felis. Aenean porttitor ligula et suscipit sodales. Phasellus quis nisi eget nulla fermentum elementum. Aenean tortor diam, ultricies eget tincidunt faucibus, vehicula sed erat. Mauris et rutrum orci. Praesent purus nisi, mattis vitae tincidunt et, auctor non mauris. Integer finibus sed velit vitae pretium. Proin id ex vehicula elit condimentum pulvinar. Sed interdum tristique urna, in dictum lacus ultricies vel.</p>
+<p>Vestibulum fermentum dolor in quam pellentesque convallis. Phasellus euismod, libero ut aliquet pharetra, dui elit tincidunt eros, vel convallis dui eros nec nulla. Cras dictum felis mi, vel consequat enim suscipit id. Duis nec pellentesque magna, ut dignissim dolor. Vivamus sit amet lorem nec dui tincidunt vestibulum. Suspendisse sollicitudin purus sed vestibulum auctor. Nulla tempor, enim non congue scelerisque, odio nisl fringilla nisl, quis placerat nunc lacus et purus. Suspendisse posuere laoreet tincidunt.</p>
+    <br/>
     <amp-img src="images/maui.jpg" alt="Welcome" height="339" width="596"></amp-img>
   </body>
 </html>
