@@ -10,14 +10,26 @@
       {
         "@context": "http://schema.org",
         "@type": "NewsArticle",
-        "author": "Tomas Remotigue",
+        "author": {
+          "@type": "Person",
+          "name": "Tomas Remotigue"
+        },
         "name": "Test homepage article",
-        "publisher": "remotigue.net",
         "headline": "Open-source framework for publishing content",
         "datePublished": "2015-10-07T12:02:41Z",
         "image": [
           "images/new-gcp-logo.png"
         ]
+        "publisher": {
+           "@type": "Organization",
+           "name": "www.remotigue.net",
+           "logo": {
+               "@type": "ImageObject",
+               "url": "images/pub_logo.png",
+               "width": 392,
+               "height": 60
+           }
+        }
       }
     </script>
     <style>body {opacity: 0}</style><noscript>
